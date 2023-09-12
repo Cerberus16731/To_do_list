@@ -3,7 +3,7 @@
 
 """
                                  ---DOCSTRING---
-This program is a simple GUI program that helps adds and removes from a To Do List.
+This program is a simple GUI program that helps add and removes from a To Do List.
 """
 
 #importing dependancies
@@ -33,7 +33,7 @@ def main():
             f.write(f"{dt.today(),dt.now()} \n")
             for (label_name,key),label in my_labels.items():
                 f.write(label_name+"\n")
-            f.flush()
+            
 
     #GUI Window layout
     root = tk.Tk()
